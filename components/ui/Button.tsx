@@ -1,7 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 
-export function Button({ children, href, variant = 'primary', className = '', type = 'button', onClick }: any) {
+interface ButtonProps {
+  children: React.ReactNode;
+  href?: string;
+  variant?: 'primary' | 'outline' | 'ghost';
+  className?: string;
+  type?: 'button' | 'submit' | 'reset';
+  onClick?: (e: React.MouseEvent<HTMLElement>) => void;
+}
+
+export function Button({ children, href, variant = 'primary', className = '', type = 'button', onClick }: ButtonProps) {
   const baseStyles = "inline-flex items-center justify-center px-6 py-3 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer";
   
   const variants = {
