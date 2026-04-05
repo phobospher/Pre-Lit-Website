@@ -45,7 +45,7 @@ export function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-slate-800 text-sm text-slate-500">
-        © {new Date().getFullYear()} Pre-Lit Institutional ODR. All rights reserved.
+        © {new Date().getFullYear()} PRE-LIT TECH PRIVATE LIMITED. All rights reserved.
       </div>
     </footer>
   );
