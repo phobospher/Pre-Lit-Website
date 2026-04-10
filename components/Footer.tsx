@@ -14,7 +14,7 @@ export function Footer() {
           </p>
           <p className="text-slate-400 max-w-sm text-sm leading-relaxed">
             <strong className="text-slate-300">Headquarters:</strong><br />
-            407, KG Marg, Barakhamba,<br />
+            GL-4, Ansal Bhawan, KG Marg, Barakhamba,<br />
             New Delhi, Delhi 110001
           </p>
         </div>
