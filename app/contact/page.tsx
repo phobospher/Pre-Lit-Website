@@ -29,7 +29,7 @@ export default function Contact() {
               <div>
                 <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Headquarters</h4>
                 <p className="text-lg text-slate-900">
-                  407, KG Marg, Barakhamba<br/>
+                  GL-4, Ansal Bhawan, KG Marg, Barakhamba<br/>
                   New Delhi, Delhi 110001<br/>
                   India
                 </p>
